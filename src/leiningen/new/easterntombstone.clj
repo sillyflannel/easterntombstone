@@ -14,4 +14,9 @@
 ;    along with digitalbird.sillyflannel.easterntombstone.  If not, see <http://www.gnu.org/licenses/>.
 (ns leiningen.new.easterntombstone (:require [leiningen.new.templates :refer [renderer name-to-path ->files]] [leiningen.core.main :as main]))
 (def render (renderer "easterntombstone"))
-(defn easterntombstone "FIXME: write documentation" [name] (let [data {:name name :sanitized (name-to-path name)}] (main/info "Generating fresh 'lein new' easterntombstone project.") (->files data ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)])))
+(defn easterntombstone "FIXME: write documentation" [name] (let [data {:name name :sanitized (name-to-path name)}] (main/info "Generating fresh 'lein new' easterntombstone project.") (->files data
+                                                                                                                                                                                                ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)]
+; project
+; core
+; core-test
+                                                                                                                                                                                                )))
