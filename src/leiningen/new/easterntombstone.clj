@@ -17,6 +17,7 @@
 (defn easterntombstone "FIXME: write documentation" [name] (let [data {:name name :sanitized (name-to-path name)}] (main/info "Generating fresh 'lein new' easterntombstone project.") (->files data
                                                                                                                                                                                                 ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)]
 ; project
+                                                                                                                                                                                                ["project.clj" (render "project.clj" data)]
 ; core
 ; core-test
                                                                                                                                                                                                 )))
