@@ -19,4 +19,7 @@
 ; project
 ; core
 ; core-test
+; COPYING
+; README
+; ChangeLog
                                                                                                                                                                                                 )))
