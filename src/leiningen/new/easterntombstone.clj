@@ -21,5 +21,6 @@
 ; core-test
 ; COPYING
 ; README
+                                                                                                                                                                                                ["README.md" (render "README.md" data)]
 ; ChangeLog
                                                                                                                                                                                                 )))
