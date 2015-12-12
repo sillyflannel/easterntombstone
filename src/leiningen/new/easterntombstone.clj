@@ -19,6 +19,7 @@
 ; project
 ; core
 ; core-test
+                                                                                                                                                                                                ["test/digitalbird/easterntombstone/{{sanitized}}/core-test.clj" (render "core-test.clj" data)]
 ; COPYING
 ; README
 ; ChangeLog
