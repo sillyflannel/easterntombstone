@@ -18,6 +18,7 @@
                                                                                                                                                                                                 ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)]
 ; project
 ; core
+                                                                                                                                                                                                ["src/digitalbird/easterntombstone/{{sanitized}}/core.clj" (render "core.clj" data)]
 ; core-test
 ; COPYING
 ; README
