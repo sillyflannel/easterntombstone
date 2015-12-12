@@ -19,7 +19,5 @@
 ; project
 ; core
 ; core-test
-; COPYING
-; README
-; ChangeLog
+                                                                                                                                                                                                ["test/digitalbird/easterntombstone/{{sanitized}}/core-test.clj" (render "core-test.clj" data)]
                                                                                                                                                                                                 )))
