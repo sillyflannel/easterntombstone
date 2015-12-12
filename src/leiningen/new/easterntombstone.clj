@@ -20,6 +20,7 @@
 ; core
 ; core-test
 ; COPYING
+                                                                                                                                                                                                ["COPYING" (render "COPYING" data)]
 ; README
 ; ChangeLog
                                                                                                                                                                                                 )))
