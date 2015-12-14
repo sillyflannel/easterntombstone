@@ -14,4 +14,4 @@
 ;
 ;    You should have received a copy of the GNU General Public License
 ;    along with digitalbird.sillyflannel.easterntombstone.  If not, see <http://www.gnu.org/licenses/>.
-(defproject digitalbird.sillyflannel.easterntombstone/lein-template "0.1.0" :description "A template for easterntombstone library projects." :url "https://github.com/sillyflannel/easterntombstone" :license {:name "GNU GPL3" :url "http://www.gnu.org/licenses/gpl.txt"} :eval-in-leiningen true :repositories [["local" {:url "file://raycold"}]])
+(defproject digitalbird.sillyflannel.easterntombstone/lein-template "1.0.0" :description "A template for easterntombstone library projects." :url "https://github.com/sillyflannel/easterntombstone" :license {:name "GNU GPL3" :url "http://www.gnu.org/licenses/gpl.txt"} :eval-in-leiningen true :repositories [["local" {:url "file://raycold"}]])
